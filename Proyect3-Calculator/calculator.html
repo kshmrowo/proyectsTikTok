@@ -104,16 +104,16 @@
                 let expression = screenValue.replace(/\u2013/g, '-'); // Reemplazar guión largo por guión corto
                 switch (true) {
                     case /\+/.test(expression):
-                        result = 'I love you ❤️';
+                        result = 'Te amo mucho Amy ❤';
                         break;
                     case /\-/.test(expression):
-                        result = 'My beautiful girl 🧡';
+                        result = 'My beautiful girl❤ ';
                         break;
                     case /\*/.test(expression):
                         result = 'Marry me 🤍';
                         break;
                     case /\//.test(expression):
-                        result = 'Thanks for everything 💖';
+                        result = 'Thanks for everything ❤';
                         break;
                     default:
                         result = eval(expression).toString();
